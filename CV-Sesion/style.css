@@ -1,0 +1,60 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat",arial, sans-serif;
+        font-size: 12px;
+        background-image: url(https://hdbackgroundspot.com//storage/upload/shapes-wallpaper/shapes-wallpaper-85.jpg);
+        background-position: bottom center;
+    }
+    .contenedor{
+        width: 80%;
+        margin: 0 auto;
+        background-color: aliceblue;
+        border-radius: 20px;
+    }
+    header{
+        padding: 40x 5px;
+        margin-bottom: 20px;
+        background: url(https://st2.depositphotos.com/3950183/8050/i/950/depositphotos_80509678-stock-photo-blue-green-gradient-triangle-shaped.jpg) no-repeat bottom center;
+
+        background-size: 100%;
+    }
+    header h1,header h2, header h4{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contenedor section{
+        margin: 10px;
+    }
+    section{
+      float: left;
+      width: 47.88%
+    }
+    section h2{
+      background-color: blue;
+      text-transform: uppercase;
+      padding: 10px;
+    }
+    img{
+      height: 150px;
+      width: 65px;
+    }
+    #imagenes img{
+      width: 15%;
+      display: inline-block;
+      padding: 10px;
+      background-color: darkblue;
+      margin: 5px;
+    }
+    #imagenes img:hover{
+      padding: 5px;
+      margin: 10px;
+      width: 25%;
+    }
+    /*Solucion casos de la vida real informacion que cura */
+    .clear{
+      clear: both;
+    }
