@@ -10,7 +10,7 @@
             .contenedor{
                 width: 80%;
                 margin: 0 auto;
-                background-color: aliceblue;
+                background-color: gray;
                 border-radius: 20px;
             }
             header{
@@ -35,19 +35,19 @@
                 width: 47.88%
             }
             section h2{
-                background-color: blue;
+                background-color: black;
                 text-transform: uppercase;
                 padding: 10px;
             }
             img{
-                height: 150px;
-                width: 65px;
+                height: 75px;
+                width: 150px;
             }
             #imagenes img{
                 width: 15%;
                 display: inline-block;
                 padding: 10px;
-                background-color: darkblue;
+                background-color: black;
                 margin: 5px;
             }
             #imagenes img:hover{
@@ -59,3 +59,25 @@
             .clear{
                 clear: both;
             }
+            #datos_personales h2{
+                background-color: #06080D;
+                color: white;
+                border-radius: 20px;
+            }
+#educacion h2{
+    background-color: #1C1E23;
+    color: white;
+    border-radius: 20px;
+}
+#acercade h2{
+    background-color: #45464B;
+    border-radius: 20px;
+}
+#experiencia h2{
+    background-color: #77787C;
+    border-radius: 20px;
+}
+#imagenes h2{
+    background-color: #CCCCCD;
+    border-radius: 20px;
+}
