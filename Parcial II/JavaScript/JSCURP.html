@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSCURP</title>
+    <script type="text/javascript">
+        var nombre;
+        var apellidoP;
+        var apellidoM;
+        var dd;
+        var mm;
+        var aa;
+        
+        nombre = prompt("Ingrese nombre(s)");
+        apellidoP = prompt("Ingrese apellido paterno");
+        apellidoM = prompt("Ingrese apellido materno");
+        dd = prompt("Ingrese dia de nacimiento(DD)");
+        mm = prompt("Ingrese mes de nacimiento(MM)");
+        aa = prompt("Ingrese año de nacimiento(AA)");
+        
+        capellidoP = apellidoP.substring(0,2);
+        capellidoM = apellidoM.substring(0,1);
+        cnombre = nombre.substring(0,1);
+        caa = aa.substr(2,4);
+        console.log(capellidoP);    
+        console.log(capellidoM);
+        console.log(cnombre);
+        console.log(caa);
+        
+        if(mm < 10){
+            mm = "0"+mm;
+        console.log(mm);
+        }
+        
+        if(dd < 10){
+            dd = "0"+dd;       
+        console.log(dd);
+        }
+        console.log(dd);
+        console.log(capellidoP+capellidoM+cnombre+caa+mm+dd);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
