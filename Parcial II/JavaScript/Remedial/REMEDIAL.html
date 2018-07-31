@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <script>
+        function tab(){
+            var m1 = document.getElementById("mel");
+            var m2 = document.getElementById("man");
+            var j = document.getElementById("ji");
+            var tds = document.getElementsByTagName("td");
+            var r=[m1,m2,j,m1];  
+            tds[0].appendChild(r[Math.floor(Math.random()*3)]);
+            tds[1].appendChild(r[Math.floor(Math.random()*3)]);
+            tds[2].appendChild(r[Math.floor(Math.random()*3)]);
+            tds[3].appendChild(r[Math.floor(Math.random()*3)]);
+            tds[4].appendChild(r[Math.floor(Math.random()*3)]);
+            tds[5].appendChild(r[Math.floor(Math.random()*3)]);
+            tds[6].appendChild(r[Math.floor(Math.random()*3)]);
+            tds[7].appendChild(r[Math.floor(Math.random()*3)]);
+            tds[8].appendChild(r[Math.floor(Math.random()*3)]);
+            
+        }
+      
+
+    </script>
+    <style>
+        #ji{
+            width: 80px;
+            height: 80px;
+        }
+        #man{
+            width: 80px;
+            height: 80px;
+        }
+        #mel{
+            width: 80px;
+            height: 80px;
+        }
+    #tabla td{
+        text-align: center;
+         width: 200px;
+         height: 200px;
+         border: solid black;
+         margin: auto 0;
+         
+     }
+     #boton{
+         background: black;
+         color: aliceblue;
+         width: 150px;
+         height: 100px;
+
+     }
+    </style>
+
+</head>
+<body onload="tab();">
+    <table id="tabla">
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+    <input type="button" value="REFRESH" onclick="tab();"
+    id="boton">
+    
+    <img src="mango.jpg" alt="" id="man">
+    <img src="jicama.jpg" alt="" id="ji">
+    <img src="melon.jpg" alt="" id="mel">
+    
+    
+</body>
+</html>

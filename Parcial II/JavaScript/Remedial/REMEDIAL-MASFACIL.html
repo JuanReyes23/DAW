@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    var nombre = prompt("Ingrese su primer nombre");
+    var apellido = prompt("Ingrese su primer apellido");
+    var mascota = prompt("Ingrese el nombre de sus mascota");
+    var tsangre = prompt("Ingrese su tipo de sangre");
+    var dia = prompt("Ingrese su dia de nacimiento");
+    var mes = prompt("Ingrese su mes de nacimiento con numero, tomando como enero el 1 y diciembre el 12");
+    var an = prompt("Ingrese su ano de nacimiento");
+   /* 
+        var s = parseInt(dia.charAt(0)) + parseInt(dia.charAt(1);) + parseInt() + parseInt() + parseInt() + parseInt() + parseInt() + parseInt() +
+    */
+    
+    var p =  mascota.split("");
+    var d1 = dia.charAt(0);
+    var d2 = dia.charAt(1);
+    var m1 = mes.charAt(0);
+    var m2 = mes.charAt(1);
+    var an1 = an.charAt(0);
+    var an2 = an.charAt(1);
+    var an3 = an.charAt(2);
+    var an4 = an.charAt(3);
+        
+    var dia1 = parseInt(d1); 
+    var dia2 = parseInt(d2);
+    var mes1 = parseInt(m1);
+    var mes2 = parseInt(m2);
+    var a1 = parseInt(an1);
+    var a2 = parseInt(an2);
+    var a3 = parseInt(an3);
+    var a4 = parseInt(an4);
+    var suma = dia1+dia2+mes1+mes2+a1+a2+a3+a4;
+    var resultado = suma.toString();
+    
+    console.log(nombre.charAt(0) + apellido.charAt(1) + tsangre + p.pop() + 
+    suma );
+    
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

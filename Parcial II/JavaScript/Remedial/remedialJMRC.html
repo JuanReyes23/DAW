@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://w3org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+    
+
+    <title>Remedial</title>
+    
+
+    <script languaje="javascript">
+        
+        
+        function init(){
+            
+            
+                var f1 = document.getElementById("manzana");
+                var ff1 = document.getElementById("manzana2");
+                var fff1 = document.getElementById("manzana3");
+                var f2 = document.getElementById("melon");
+                var ff2 = document.getElementById("melon2");
+                var fff2 = document.getElementById("melon3");
+                var f3 = document.getElementById("fresa");
+                var ff3 = document.getElementById("fresa2");
+                var fff3 = document.getElementById("fresa3");
+                var cartas = document.getElementsByClassName("td");
+                var cartas1 = document.getElementsByClassName("td2");
+                var cartas2 = document.getElementsByClassName("td3");
+                var ran=[f1,f2,f3];
+                var ran2=[ff1,ff2,ff3];
+                var ran3=[fff1,fff2,fff3];
+            
+                cartas[0].appendChild(ran[Math.floor(Math.random()*3)]);
+                cartas1[0].appendChild(ran2[Math.floor(Math.random()*3)]);
+                cartas2[0].appendChild(ran3[Math.floor(Math.random()*3)]);
+                cartas[1].appendChild(ran[Math.floor(Math.random()*3)]);
+                cartas1[1].appendChild(ran2[Math.floor(Math.random()*3)]);
+                cartas2[1].appendChild(ran3[Math.floor(Math.random()*3)]);
+                cartas[2].appendChild(ran[Math.floor(Math.random()*3)]);
+                cartas1[2].appendChild(ran2[Math.floor(Math.random()*3)]);
+                cartas2[2].appendChild(ran3[Math.floor(Math.random()*3)]);
+            
+            }
+    </script>
+    
+    <style>
+        .image{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+    
+</head>
+<body onload="init();">
+    
+    
+    <table border cellpadding="50px" id="tabla">
+        <tr>
+            <td class="td">    <img class="image" alt="" id="manzana" src="img\0.jpg" ></td>
+            <td class="td">    <img class="image" alt="" id="melon" src="img\1.jpg" ></td>
+            <td class="td">    <img class="image" alt="" id="fresa" src="img\2.jpg" ></td>
+        </tr>
+        <tr>
+            <td class="td2">    <img class="image" alt="" id="manzana2" src="img\0.jpg" ></td>
+            <td class="td2">    <img class="image" alt="" id="melon2" src="img\1.jpg" ></td>
+            <td class="td2">    <img class="image" alt="" id="fresa2" src="img\2.jpg" ></td>
+        </tr>
+        <tr>
+            <td class="td3">    <img class="image" alt="" id="manzana3" src="img\0.jpg" ></td>
+            <td class="td3">    <img class="image" alt="" id="melon3" src="img\1.jpg" ></td>
+            <td class="td3">    <img class="image" alt="" id="fresa3" src="img\2.jpg" ></td>
+        </tr>
+    </table>
+    
+    
+</body>
+</html>
